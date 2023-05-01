@@ -4,10 +4,9 @@
 </head>
 
 <body>
-    <div style="background-image: url('images/heading.jpg');background-size: cover;background-repeat: no-repeat;
-        background-position: center center; ">
-        <img src="images/me.jpg" style="width:200px; border-radius: 50%; display: block;" />
-    </div>
+    <header style="">
+        <img id="dp" src="images/me.jpg"  />
+    </header>
 
     <h1>Md Mahmudul Hassan</h1>
     <ul>
@@ -18,9 +17,52 @@
         <li>W1D5 - MP3 Library</li>
         <li>W1D6 - Movie Review PHP</li>
     </ul>
-    <a href="http://validator.w3.org/check/referer"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
+    
+    <footer >
+        <ul style="float:left">
+            <li>Md Mahmudul Hassan</li>
+            <li>Maharishi International University(Compro)</li>
+            <li>Address: 1000 N 4th St., Fairfield, Iowa,52557</li>
+            <li>Email: mdmahmudul.hassan@miu.edu</li>
+        </ul>
+        <a href="http://validator.w3.org/check/referer"> <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
             alt="html validator" /></a>
-
+    </footer>
 </body>
-
+<style>
+    ul
+    {
+        list-style-type: none;
+    }
+    footer{
+        display: block;
+        background-color: #DDDDDD;
+        position: fixed;
+        bottom:0;
+        width: 100%
+        ;
+    }
+    header{
+        background-image: url('images/heading.jpg');
+        background-size: cover;background-repeat: no-repeat;
+        background-position: center center; 
+        position: relative;
+    }
+    body{
+        margin:0px;
+        background-color: #E8EBEE;
+    }
+    a{
+        float:right;
+    }
+    #dp
+    {
+        width:200px; 
+        border-radius: 50%; 
+        display: block;
+        position: relative;
+        bottom:-20px;
+        margin-left:20px;
+    }
+</style>
 </html>
