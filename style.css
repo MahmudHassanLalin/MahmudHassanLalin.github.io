@@ -1,0 +1,31 @@
+body{
+    background-color: #5A5647;
+    color:#fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1,h3{
+color:#94C3F1;
+}
+h1{
+    font-size:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#top{
+    border-bottom: 1px solid #8C877C;
+}
+#top b{
+    color:#f5f117
+}
+.movie a
+{
+    color:red;
+}
+.moodes img
+{
+width:400px;
+height: 350px;
+}
