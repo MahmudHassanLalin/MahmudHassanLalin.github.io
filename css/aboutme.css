@@ -23,9 +23,21 @@ h3{
 .movie a
 {
     color:red;
+    text-decoration: none;
+}
+.movie a:hover
+{
+    text-decoration: underline;
 }
 .moodes img
 {
 width:400px;
 height: 350px;
 }
+p::first-letter {
+    font-size: 150%;
+  }
+  ol {
+    display: flex;
+    flex-direction: column-reverse;
+  }
