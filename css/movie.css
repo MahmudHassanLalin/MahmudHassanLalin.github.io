@@ -64,7 +64,7 @@ body{
     border-radius: 10px;
     padding: 8pt;
     font-weight: bold;
-    min-height: 104px;
+    min-height: 96px;
 }
 .quote img,.reviewer img {
     float: left;
@@ -75,7 +75,7 @@ body{
 }
 .review{
     margin-bottom: 20pt;
-    min-height: 165px;
+    min-height: 158px;
     
 }
 #right-section{
@@ -85,7 +85,6 @@ body{
     font-family: Arial,'sans-serif';
     float: right;
     border-radius: 0px 16px 0px 0px;
-    height: 172vh;
 }
 #right-section,#right-section img{
     border-radius: 0px 16px 0px 0px;
