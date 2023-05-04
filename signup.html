@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign up</title>
+    <link type="text/css" rel="stylesheet" href="css/signup.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>New User Signup</legend>
+
+        <form method="post" action="https://mumstudents.org/params.php">
+            <div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" id="sname" name="name" size="16"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender:</td>
+                            <td>
+                                <input type="radio" name="gender" value="male">Male
+                                <input type="radio" checked name="gender" value="female"> Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Age:</td>
+                            <td><input type="text" id="age" name="age" maxlength="2" size="6"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Personality type:
+                            </td>
+                            <td>
+                                <input type="text" id="sname" name="name" size="6" maxlength="4">
+                                (<a class="warning" href="http://www.humanmetrics.com/cgj-win/JTypes2.asp">Don't know your time?</a>)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Favorite OS:</td>
+                            <td>
+                                <select name="os">
+                                    <option value="windows">Windows</option>
+                                    <option value="macos">Mac OS X</option>
+                                    <option value="linux">Linux</option>
+                                </select>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Seeking age:</td>
+                            <td>
+                                <input maxlength="2" size="6" type="text" id="min" placeholder="min" name="min">
+                                to
+                                <input maxlength="2" size="6" type="text" id="max" placeholder="max" name="max">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button type="submit">Sign Up</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+</html>

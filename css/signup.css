@@ -1,0 +1,43 @@
+body{
+    font-family: 'Trebuchet MS';
+}
+legend
+{
+    border-width: 2px 0px 0px 2px;
+    border-color:#DDDDDD;
+    border-style: solid;
+    box-shadow: 1px 1px 1px #8F9095;
+    background-color: #ffffff;
+}
+fieldset
+{
+    border-width: 2px 0px 0px 2px;
+    border-color:#DFE1FF;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #8F9095;
+    background-color: #DFE1FF;
+    border-radius: 5px;
+}
+table td:first-child
+{
+    font-weight: bold;
+}
+.warning{
+    color:#DA96A9;
+}
+
+button[type="submit"]
+{
+    background-color: #FF9CA8;
+
+    border-width: 2px 0px 0px 2px;
+    border-color:#ffffff;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #D8C1CA;
+    font-weight: bold;
+    font-size: 12pt;
+    padding:2px;
+}
+table td{
+    padding-bottom:4px;
+}
