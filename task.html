@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <script src="js/task.js"></script>
+
+    <title>Tip Calculator</title>
+    <link href="css/task.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Task List</h1>
+    <table>
+        <tr>
+            <td>Task</td>
+            <td>Task List</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="task"></td>
+            <td rowspan="3">
+                <textarea id="list" cols="20" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><input id="add" onclick="add()" type="button" value="Add Task"></td>
+        </tr>
+        <tr>
+            <td>
+                <input id="clear" onclick="clearList()" type="button" value="Clear Tasks">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
