@@ -3,7 +3,7 @@ function getPicture() {
         url: "https://api.nasa.gov/planetary/apod",
         type: "GET",
         data: {
-            api_key: "VMul3fh7J5zOErdwcSIFZLaMplUipnCqFJIzhUmO ",
+            api_key: "VMul3fh7J5zOErdwcSIFZLaMplUipnCqFJIzhUmO",
             date: $("#date").val()
         },
         dataType: "json",
