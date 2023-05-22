@@ -18,7 +18,6 @@ var response=  fetch("https://api.nasa.gov/planetary/apod?"+new URLSearchParams(
     ).then(response=>{
         return response.json();
     }).then(data=>showPicture(data));
-    
 };
 function showPicture(data) {
     $("#pic").attr("src", data.url);
